@@ -115,48 +115,26 @@ In addition, this Moving Average may mean Resistance caused by arising from the 
 
 The average is taken over a period of time, such as 10 days, 20 minutes, 30 weeks, or any time the processor chooses. There are advantages to using a moving average in your trade, and options for what kind of moving average will be used. Moving average strategies are also popular and can be adapted to any time frame suitable for both long-term and short-term investors.
 
-
-## 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project4.png "imagetooltip")
-
-
-
-### Migros Moving Average
+***
+#### Migros Moving Average
+![11](https://user-images.githubusercontent.com/36234545/72106877-4151eb80-3341-11ea-8c4a-46c95bff0dcd.png)
+***
 
 Above moving average smoothes the line and shows the rising or decreasing trend of a stock price. The Moving Average in this table shows an upward trend in the rise or fall of stock prices. Logically, you should buy when stocks fall, and you should sell as stocks rise.
-
 
 ## Return Deviation
 
 To determine risk and return, firstly we need to understand the certain definitions. Expected return measures the average or expected value of the probability distribution of return on investment. The expected return on a portfolio is calculated by multiplying the weight of each asset by the expected return and adding values for each investment. We can use the following formula [8];
 
+***
+#### Formula for Returns
+![12](https://user-images.githubusercontent.com/36234545/72106878-41ea8200-3341-11ea-82bc-5c6829eba81a.png)
+***
 
-## 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project5.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project5.png "imagetooltip")
-
-
-
-### Formula for Returns
-
-
-## 
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project6.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project6.png "imagetooltip")
-
-
-
-### Plotting the Return Rate
+***
+#### Plotting the Return Rate
+![13](https://user-images.githubusercontent.com/36234545/72106879-41ea8200-3341-11ea-907a-e2e8cd9e6ffa.png)
+***
 
 Logically, our ideal stocks should return as high and stable as possible. If you are hedging, you may want to avoid these stocks when you see a 10% drop in 2013. This decision is subject to your general opinion on stocks and competitor analysis in general.
 
@@ -165,42 +143,33 @@ Logically, our ideal stocks should return as high and stable as possible. If you
 
 This section is one of the most exciting research sections because we will see and compare the stocks of other competitors. We will analyze how a company performs compared to its competitors. Suppose we are interested in retail companies(supermarket) and want to compare: BIM Birlesik Magazalar, A101, CarrefourSA, Kipa, Sok Marketler. We can only explore the companies that we have access to their data on yahoo finance. [10]
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project7.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project7.png "imagetooltip")
-
-
-
-### Stocks Price For Bim, Bizim, Carrefoursa, Sok Supermarkets
-
+***
+#### Stocks Price For Bim, Bizim, Carrefoursa, Sok Supermarkets
+![14](https://user-images.githubusercontent.com/36234545/72106882-42831880-3341-11ea-9ba5-dc7c4fa2b41d.png)
+***
 
 ## Correlation Analysis with Competitors
 
 Correlation Analysis answers whether if one competitor affects others. We can analyze the competition by running the percentage change and correlation function in pandas. The percentage change will see how much the price has changed from the previous day, which defines the return. Knowing the correlation will help us see if returns are affected by other stocks.
 
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project8.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project8.png "imagetooltip")
-
-
-
-### Correlations Among Competing Stocks
+***
+#### Correlations Among Competing Stocks
+![15](https://user-images.githubusercontent.com/36234545/72106884-431baf00-3341-11ea-9f34-443d9ada8b43.png)
+***
 
 We can see that BİM A.S and MIGROS are more connected than other competitors. Let's draw MIGROS and BİM A.S plots with scatter plot to view returns distributions. 
 
-
-### Scatter Plot Of Bi̇m A.S And Migros
+***
+#### Scatter Plot Of Bi̇m A.S And Migros
+![16](https://user-images.githubusercontent.com/36234545/72106854-3dbe6480-3341-11ea-86f0-a7b34b1a68a2.png)
+***
 
 Distribution Chart of MIGROS and BİM Here we see a slight positive correlation between MIGROS returns and BİM returns. The higher BİM, the higher MIGROS in most cases. Let's further develop our analysis by drawing scattermatrix to visualize possible correlations between competing stocks. At the cross point, we will make the Core Density Estimate (KDE). KDE is a basic data correction problem that makes inferences about population based on limited data sample. It helps generate estimates of general distributions. 
 
-
-### Kde Plots And Scatter Matrix
+***
+#### Kde Plots And Scatter Matrix
+![17](https://user-images.githubusercontent.com/36234545/72106855-3dbe6480-3341-11ea-93d9-9c208c52f00a.png)
+***
 
 We can find great relationships between rival stocks from Scatter Matrix and Heatmap. However, this may not be causal and may show the trend in the retail (supermarket) industry, rather than showing how competitor stocks affect each other.
 
@@ -209,8 +178,10 @@ We can find great relationships between rival stocks from Scatter Matrix and Hea
 
  In addition to correlation, we analyze the risks and returns of each stock. In this case, we deduct the average return (Return Rate) and the standard return deviation (Risk).
 
-
-### Quick Scatter Plot among Stocks Risk and Returns
+***
+#### Quick Scatter Plot among Stocks Risk and Returns
+![18](https://user-images.githubusercontent.com/36234545/72106856-3e56fb00-3341-11ea-96c3-bc1f3f467512.png)
+***
 
 You can now view this clean risk table and see return comparisons for competitor stocks. Logically, you want to minimize risk and maximize returns. Therefore, you want to draw the line for your risk-return tolerance (Red line). You then set up rules to take these stocks below the red line (BIZIM, and BIM) and sell those stocks above the red line (SOK and CarrefourSA). This red line shows your expected value threshold and your basic level for a buy / sell decision.
 
@@ -219,15 +190,14 @@ You can now view this clean risk table and see return comparisons for competitor
 
 We will use these three machine learning models to predict our stocks. These are Simple Linear Analysis, Quadratic Discriminant Analysis (QDA), and K Nearest Neighbor (kNN). But first, we need to do some feature engineering for features lise High Low Percentage and Percentage Change.
 
-
-### Data Frame Produced
-
+***
+#### Data Frame Produced
+![19](https://user-images.githubusercontent.com/36234545/72106857-3e56fb00-3341-11ea-97e1-c437cbd5f0da.png)
+***
 
 ## Preprocessing and Splitting Data (Train/Test)
 
-We cleaned and processed the data using the following steps before putting it in the prediction models by doing following steps, we also ;
-
-
+We cleaned and processed the data using the following steps before putting it in the prediction models by doing following steps, we also;
 
 1. Drop missing values
 2. Separate the label here, we want to predict the Close
@@ -236,50 +206,29 @@ We cleaned and processed the data using the following steps before putting it in
 5. Separate label and identify it as y
 6. Separation of training and testing of model by train test split
 
-
 ## K Nearest Neighbor (kNN)
 
 This kNN uses feature similarity to estimate the values of the data points. This makes the assigned new point similar to the points in the data set. To find the similarity, we will subtract the points to release the minimum distance (for example: Euclidean Distance).
 
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project9.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project9.png "imagetooltip")
-
-
-
-### KNN Model Visualization
+***
+#### KNN Model Visualization
+![20](https://user-images.githubusercontent.com/36234545/72106858-3e56fb00-3341-11ea-8d68-57a8601ff82b.png)
+***
 
 kNN can be used for both classification and regression estimation problems. However, it is more widely used for classification problems in the industry. When we apply kNN to our data, we get the following plot:
 
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project10.png "imagetooltip")
-
-
-
-### Predictions Displayed in Plot
-
+***
+#### Predictions Displayed in Plot
+***![21](https://user-images.githubusercontent.com/36234545/72106860-3eef9180-3341-11ea-9dda-12d31f5b42ee.png)
 
 ## kNN Evaluation & Test Results
 
 A simple quick method to evaluate is to use the score method in each trained model. The score method finds the mean accuracy of self.predict(X) with y of the test data set. We get following scores;
 
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project11.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project11.png "imagetooltip")
-
-
-
-###  kNN Result Metrics
+***
+####  kNN Result Metrics
+![22](https://user-images.githubusercontent.com/36234545/72106861-3eef9180-3341-11ea-9076-c85af47f33bb.png)
+***
 
 This shows a tremendous accuracy score (> 0.95) for most models. However, this does not mean that we can blindly place our stocks. 
 
@@ -292,55 +241,21 @@ To further analyse the stocks, here are some ideas on how you can contribute to 
 
 One of the most basic machine learning algorithms that can be applied to this data is linear regression. In statistics, linear regression is a linear approach for modelling the relationship between a scalar dependent variable y and one or more explanatory variables (or independent variables) denoted X. The case of one explanatory variable is called simple linear regression. For more than one independent variable, the process is called multiple linear regression. The linear regression model returns an equation that determines the relationship between the independent variables and the dependent variable. The equation for linear regression is as follows:
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project12.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project12.png "imagetooltip")
+![23](https://user-images.githubusercontent.com/36234545/72106862-3f882800-3341-11ea-8e6f-6dad2c7bc962.png)
+***
 
 
 In above figure, x1, x2, … xn represent the independent variables while the coefficients represent the weights. For our research question, as we have several attributes, we will use Multiple or multivariate linear regression that is a case of linear regression with two or more independent variables. After we apply Linear Regression we get following results.
 
+***
+#### Linear Regression Prediction
+![24](https://user-images.githubusercontent.com/36234545/72106863-3f882800-3341-11ea-95a6-4a91b27d9a4c.png)
+***
 
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/474-Project13.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alttext](images/474-Project13.png "imagetooltip")
-
-
-
-### Linear Regression Prediction
-
-
+***
 ## Regression Evaluation & Test Results
-
-**Accuracy Metrics for Linear Regression:**
-
-Mean Absolute Error: 0.5525601380450951
-
-Mean Squared Error: 0.5366957025723798
-
-Root Mean Squared Error: 0.732595183284998
-
-**Test Results for Logistic Regression:**
-
-We’ve tried to predict whether the stock price would go up or down using this technique.
-
-**Confusion Matrix**
-
-**True Positive** 1
-
-**False Negative** 7
-
-**False Positive** 0
-
-**True Negative** 11
-
-**Recall** = TP / (TP + FN) = 0.125
-
-**Precision** = TP / (TP + FP) = 0.091
+![25](https://user-images.githubusercontent.com/36234545/72106864-3f882800-3341-11ea-9580-b5dc65c0df5e.png)
+***
 
 **Confusion Matrix:** An N*N matrix; where N is the number of predicted classes. Here are a few definitions to remember for a confusion matrix: 
 
@@ -365,9 +280,10 @@ We've split the dataset as before November 4 and after November 4. Before part w
 
 During this project, we’ve gained important experience in the Data Science field because of all the research we did. Although we could not obtain exact results, we’ve done a lot of research and gained useful knowledge. Especially, the part of preprocessing and first analysis of the data took most of our time. Only after analyzing the data properly, you can actually use only the machine learning algorithms properly. We have learned a lot of interesting information on Turkey’s retail industry thanks to this project, it proved to be a good experiment in the end.
 
-
-### “Garbage in, Garbage out”
-
+***
+#### “Garbage in, Garbage out”
+![26](https://user-images.githubusercontent.com/36234545/72106865-3f882800-3341-11ea-97c7-0fadcc07cee9.png)
+***
 
 ## References
 
