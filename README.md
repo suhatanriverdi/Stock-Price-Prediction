@@ -1,6 +1,6 @@
 # Stock Price Prediction Using Machine Learning Techniques
 
-This is a machine learning research about **Stock Price Prediction in Turkey** using Machine Learning Techniques. This project was given in the course of **Introduction to Data Science.** You can use the python implementation code file (ipynb) in **Jupyter Notebook (Anaconca 3).**
+This is a machine learning research about **Stock Price Prediction in Turkey** using Machine Learning Techniques. This project was given in the course of **Introduction to Data Science.** You can use the python implementation code file (ipynb) in **Jupyter Notebook (Anaconca 3)** with **Migros.csv** data file.
 
 ![1](https://user-images.githubusercontent.com/36234545/72106070-c3411500-333f-11ea-904f-a504f9695ccb.png)
 
