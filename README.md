@@ -1,6 +1,6 @@
 # Stock Price Prediction Using Machine Learning Techniques
 
-This is a machine learning research about **Stock Price Prediction in Turkey** using Machine Learning Techniques. This project was given in the course of **Introduction to Data Science.**
+This is a machine learning research about **Stock Price Prediction in Turkey** using Machine Learning Techniques. This project was given in the course of **Introduction to Data Science.** You can use the python implementation code file (ipynb) in **Jupyter Notebook (Anaconca 3).**
 
 ![1](https://user-images.githubusercontent.com/36234545/72106070-c3411500-333f-11ea-904f-a504f9695ccb.png)
 
@@ -306,6 +306,8 @@ During this project, we’ve gained important experience in the Data Science fie
 [9] Stock Correlations, [https://finance.yahoo.com/news/stock-correlation-212133633.html](https://finance.yahoo.com/news/stock-correlation-212133633.html)
 
 [10] Investopedia - Return Deviation, [https://www.investopedia.com/terms/s/stock.asp](https://www.investopedia.com/terms/s/stock.asp)
+
+***
 
 ## License
 Eye Color Detector is licensed under the MIT license. See LICENSE for more information.
