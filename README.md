@@ -309,14 +309,8 @@ During this project, we’ve gained important experience in the Data Science fie
 
 ***
 
-## License
-Eye Color Detector is licensed under the MIT license. See LICENSE for more information.
-
-## Project Status
-You can download the latest release from this repository.
-
 ## Disclaimer
 This project was prepared and shared for educational purposes only. You can use or edit any file as you wish.
 
 ## About
-Süha TANRIVERDİ Çankaya University, Computer Engineering
+Created as a project for CENG474: Introduction to Data Science course @ Çankaya University by Süha Tanrıverdi ([@shtanriverdi](https://github.com/shtanriverdi)) and Abdulkerim Güven ([@akgvn](https://github.com/akgvn))
