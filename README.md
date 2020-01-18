@@ -310,7 +310,7 @@ During this project, we’ve gained important experience in the Data Science fie
 ***
 
 ## License
-Eye Color Detector is licensed under the MIT license. See LICENSE for more information.
+Stock Price Prediction is licensed under the MIT license. See LICENSE for more information.
 
 ## Project Status
 You can download the latest release from this repository.
